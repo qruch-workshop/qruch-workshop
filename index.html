@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+QRUCH - 1st edition
+http://www.templatemo.com/tm-486-new-event
+-->
+<title>QRUCH - Workshop on Quantum Resources for Unified Computing Hub</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+<style>
+mark { 
+ background-color:rgba(242,84,95,0.5);
+  color: white;
+}
+</style>
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
+
+
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">QRUCH</a>
+		</div>
+
+        <div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#intro" class="smoothScroll">Introduction</a></li>
+				<li><a href="#presentation" class="smoothScroll">Presentation</a></li>
+				<li><a href="#programme" class="smoothScroll">Program</a></li>
+				<li><a href="#venir" class="smoothScroll">Venue</a></li>
+				<li><a href="#contact" class="smoothScroll">Previous Edition</a></li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section id="intro" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h3 class="wow bounceIn" data-wow-delay="0.9s"><mark>Join us June 13 at Congress Center Hamburg (CCG), during ISC'25 </mark></h3>
+				<h3 class="wow bounceIn" data-wow-delay="1.3s"><mark>1st edition of the Workshop</mark></h3>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s" style="background-color:rgba(242,84,95,0.5);">Quantum Resources for Unified Computing Hub</h1>
+				<a href="#presentation" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">Overview</a>
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="presentation" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+				<h3>QRUCH is a ISC'25 Workshop focused on middleware dedicated in integrating actual Quantum Computer into HPC compute centers </h3>
+				<p>This “half a day” workshop will address some of these topics as it aims to depict the available pieces of software that will help in integrating an actual quantum computer inside a machine room, making it available to end users. </p>
+			</div>
+					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/digital-9312872_640.jpg" class="img-responsive" alt="Overview">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    Call for Poster
+============================== -->
+<section id="cfp" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="wow fadeInUp col-md-20 col-sm-20" data-wow-delay="0.6s">
+
+				<h3>QRUCH 1st Edition </h3>
+				<P>This workshop is a follow-up to the BoF “Towards Hardware Agnostic Standards in Hybrid HPC/Quantum Computing” at ISC’24.</P>
+
+				<P>Quantum Computing is not a completely  new topic: it was introduced in 1981 during a conference at MIT, but it really came under the spotlight as Peter Shor released his famous algorithm capable of breaking RSA encryption with tremendous acceleration. The domain remained a bit theoretical, studied in mathematical computer science, until a few years ago when actual Quantum Computers arrived on the market providing real (but yet limited) quantum compute resources. In the very last years, Quantum Computers gained more compute power, and they started to be deployed inside HPC centers while also becoming available on cloud based platforms. </P> 
+
+				<P>As Quantum Computers leave the laboratories where they were designed and enter the HPC machine room, it becomes necessary to consider how they can be used to perform actual computation on real life use cases. As we are still in the NISQ era, and because HPC resources may help in using Quantum Computers efficiently, the hybrid HPC/QC naturally appeared, providing acceleration similarly to GPU previously.</P> 
+
+				<P>This is not as easy as it seems. As the hardware becomes ready to be installed in computer rooms, the software stack has not evolved as fast. In particular, the required software stack to “glue” HPC and QC is not fully defined. Solutions exist and are provided by both research institutes and vendors, but they obey no standard. </P>
+
+				<P>Current Quantum Computers are provided with a very simple software stack, usually a Python based framework, providing native access to the computing resources as well as a “mock device” providing emulation on standard CPU (and sometimes GPU) compute power. As we consider the integration inside the computer center, many topics, related to system integration as well as application integration are to be considered, such as:
+				<ul>
+					<li>authentication and accounting;</li>
+					<li>job scheduling;</li>
+					<li>benchmarking;</li> 
+					<li>programming interfaces beyond Python</li>
+					<li>mixing HPC and QC steps to perform actual HPC/QC hybridization</li>
+				</ul></p>
+				<P>This “half a day” workshop will address some of these topics as it aims to depict the available pieces of software that will help in integrating an actual quantum computer inside a machine room, making it available to end users.</P>
+
+            <h3> Important dates </h3>
+            <ul>
+            <li> Workshop on June 13, during ISC'25 </li>
+            </ul>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    DETAIL SECTION   
+============================== -->
+<section id="detail" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.3s">
+				<i class="fa fa-group"></i>
+				<h3>First Edition</h3>
+				<p>This is the first edition of the QRUCH workshop. It's a follow-up of a BoF session at ISC'24 </p>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+				<i class="fa fa-clock-o"></i>
+				<h3>3 sessions</h3>
+				<p>The workshop is composed of 3 sessions: a keynote address, 6 lightning talks and a export panel</p>
+			</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<i class="fa fa-microphone"></i>
+				<h3>6 lightning talks, in two rounds</h3>
+				<p>The lightning talks will belong to two rounds, separated by the coffee break. Each talk will last 10 minutes plus 5 minutes for Q/A </p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- =========================
+    PROGRAM SECTION   
+============================== -->
+<section id="programme" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2>Program</h2>
+					<p>QRUCH workshop spans a half day, its agenda is organised as follows
+					 <b>
+					 <ul>
+						 <li>9h00-9h05	 	Participants Welcoming </li>	
+						 <li>9h05-10h00 	Keynote Speaker: Pr. Dr. Kristel Michielsen </li>	
+						 <li>10h00-11h00 	Lightning talks (1st round</li>	
+						 <li>11h00-11h30	** Coffee break (synchronised with ISC'25 coffee break) ** </li>	
+						 <li>11h30-12h00 	Lightning talks (2nd round) </li>	
+						 <li>12h00-12h55	Expert Panel</li>
+						 <li>12h55-13h00	Wrap-up and conclusions</li>
+						 <li>13h00		End of workshop</li>
+					</ul>
+					</b>
+					</p>	
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#atscale" aria-controls="atscale" role="tab" data-toggle="tab">Keynote Speaker</a></li>
+					<li><a href="#flash" aria-controls="flash" role="tab" data-toggle="tab">Lightning Talks</a></li>
+					<li><a href="#cloud" aria-controls="cloud" role="tab" data-toggle="tab">Expert Panel</a></li>
+					<li><a href="#steering" aria-controls="steering" role="tab" data-toggle="tab">Steering Committee</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+
+					<div role="tabpanel" class="tab-pane active" id="atscale">
+						<h3>Keynote Speaker</h3>
+                                                <div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Michielsen_Kristel.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 9h05 </span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2> Title of the keynote speaker's topic : to be added</h2>
+							<h3> Pr. Dr. Kristel Michielsen, Head of the research group Quantum Information Processing and Head of the Jülich UNified Infrastructure for Quantum computing (JUNIQ) </h3>
+                            				<p>  ADD HERE THE DESCRIPTION OF THE KEYNOTE TALK</p>
+							<h4> <a href="material/404.pdf">Slides of the presentation</a>. </h4>
+						</div>
+
+									</div>
+			
+					<div role="tabpanel" class="tab-pane" id="flash">
+					<h3>Lightning Talks</h3>
+
+	<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/burgholzer.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10h00 </span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2>Connecting Hardware and Software in Quantum Computing: The Quantum Device Management Interface (QDMI)</h2>
+							<h3>Lukas Burgholzer (TUM))</h3>
+							<p> This lightning talk will showcase an interface, called the Quantum Device Management Interface (QDMI), that addresses this problem by explicitly connecting the software and hardware developers, mediating between their competing interests. QDMI allows hardware platforms to provide their physical characteristics in a standardized way, and software tools to query that data to guide the compilation process accordingly. QDMI is publicly available as open source at 
+https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
+							<h4> <a href="material/404.pdf">Slides of the presentation</a>. </h4>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Gabriella_Bettonte_RGB_1200.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10h15 </span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2> SmartHPC.QC: evaluating the impact of malleability for HPC-QC integration<>h2>
+							<h3>Gabriella Bettonte (gabriella.bettonte@e4company.com)</h3>
+							<p>Today, HPC centers and quantum computers, as the number of quantum machines is dramatically lower than that of classical nodes. As jobs execute quantum kernels (or wait for their turn in a time-partitioned quantum resource), HPC nodes may be idle, thus occupying resources without performing anything. This phenomenon introduces inefficiencies in the overall HPC center performance. We suggest tackling the issue by adopting a more dynamic method to handle resource assignments, i.e., through malleability properties. With the SmartHPC.QC project (a collaboration between E4 Computer Engineering, Links Foundation, Università di Torino and CINECA), we aim to develop a malleable solution for allocating quantum resources in an HPC-QC pipeline.</p>
+							<h4> <a href="material/404.pdf">Slides of the presentation</a>. </h4>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/LaviniaStiliadou.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10h30</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2> Qunicorn: A Middleware for Unified Execution Across Heterogeneous Quantum Cloud Offerings.</h2>
+							<h3>Lavinia Stiliadou (lavinia.stiliadou@iaas.uni-stuttgart.de)</h3>
+							<p>Quantum computers are available via a variety of different quantum cloud offerings and quantum circuits can be implemented using different quantum programming languages. As a consequence, using a specific quantum programming language for implementing the application at hand can limit the set of compatible quantum cloud offerings and cause a vendor lock-in.  Therefore, we introduce the architecture for a unification middleware that facilitates accessing quantum computers available via different quantum cloud offerings by automatically translating between various quantum circuits and result formats</p>
+							<h4> <a href="material/404.pdf">Slides of the presentation</a>. </h4>
+
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Santiago-Nunez.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10h45</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session </span>
+							</h6>
+							<h2>Programming models for hybrid HPC-QPU applications</h2>
+							<h3> Santiago Nunez-Corrales (nunezco2@illinois.edu)</h3>
+							<p> Programming quantum computers today still requires substantial knowledge of the physical basis of these devices. This creates a tall barrier for non-physicists to benefit from the additional computational resources QPUs provide and constrains the growth in number of successful final applications. When put in the perspective of integrating HPC and QPU resources, hybrid classical-quantum programming today seems not be poised to scale up alongside qubit counts, fault tolerance and utility-scale devices within the following decade. We will discuss new directions for quantum-only programming models inspired by four decades of parallel computing (including MPI, OpenMP and CUDA) where the main objective is to provide a uniform programming surface with much lower difficulty for newcomers</p>
+							<h4> <a href="material/404.pdf">Slides of the presentation</a>. </h4>
+						</div>
+					<!-- program divider -->
+
+					<!-- <div class="program-divider col-md-12 col-sm-12"></div> -->
+						<div class="col-md-2 col-sm-2">
+                        			</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11h00 </span> 
+							</h6>
+							<h4> ** 30 minutes break (synchronised with ISC'25 break) **</h4>
+							<p>
+
+							</p>
+                        			</div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/coffee_small.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11h00</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2>Coffee Break</h2>
+							<p>Coffee Break (synchronised with ISC'25 coffee break)</p>
+						</div>
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/vlad-stirbu-profile-foto.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11h30</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2>A critical look at the state of quantum software stack </h2>
+							<h3> Vlad Stirbu (vlad.a.stirbu@jyu.fi) </h3>
+							<p>The talk will take a critical look at the current state of quantum software stack and what we can learn from 70 years of classical computing when designing the integration of quantum computing into classical infrastructures</p>
+							<h4> <a href="material/404.pdf">Slides of the Poster</a>. </h4>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/OceaneKoska.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11h45</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2>Heterogeneous quantum computing in C++ with Q-Pragma</h2>
+							<h3> Océane Koska (oceane.koska@eviden.net) </h3>
+							<p>Quantum computing offers a promising approach to solving complex computational problems. However, integrating quantum computing into existing high-performance computing (HPC) environments remains a significant challenge. The Q-Pragma programming framework aims to facilitate this integration by embedding quantum directives within C++ code, enabling the development of hybrid quantum-classical applications. This presentation will explore the architecture of Q-Pragma, its role in optimizing quantum-classical interactions, and its potential for enhancing computational performance.</p>
+						</div>
+
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="cloud">
+						<h3>Expert Panel </h3>
+	
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/camille-coti.jpg" class="img-responsive" alt="Camille Coti">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3> Camille Coti</h3>
+							<h3>ETSMTL Montréal</h3>
+							<P>
+							Camille Coti obtained a master degree in Télécom SudParis and received her PhD at University Paris-Saclay (UPSaclay France). She is now working as a professor for computer sciences at the ETSMTL (Ecole de Technologie Supérieure de Montréal) in Montreal, Canada</p>
+						</div>
+
+
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Santiago-Nunez.png" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Santiago Núñez-Corrales, Ph.D</h3>
+							<h3>NCSA</h3>
+							<P>
+							Santiago Núñez-Corrales, Ph.D. serves as Quantum Lead Research Scientist at the National Center for Supercomputing Applications (NCSA), University of Illinois Urbana-Champaign (UIUC). He also serves as faculty affiliate at the Illinois Quantum Information Science and Technology Center (IQUIST), the Center for Global Studies (CGS), the Arms Control & Domestic and International Security (ACDIS), and Illinois Informatics at the same institution. </p> 
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Ottaviani_663c9d313528c28634829c85.jpg" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Daniele Ottaviani</h3>
+							<h3>CINECA</h3>
+							<P>
+							Daniele Ottaviani obtained is master’s degree cum laude in applied mathematics at University of Rome “Sapienza”. He completed his studies with a II level Master degree in "Scientific Computing", where he deepened High Performance Computing (HPC), and with a Ph.D. in "Mathematics and Models". Since 2013 he has worked as Research fellow at the Astronomical Observatory of Rome "Monte Porzio Catone". Since 2018 he has been working in CINECA as HPC Software Developer, with a special active monitoring role for the nascent quantum technologies. Since 2024 he is the Head of the CINECA Quantum Computing Lab</p>>
+						</div>
+
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/ATorresKnoop.png" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Ariana Torres</h3>
+							<h3>SURF</h3>
+							<P>
+							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.</p>
+							
+						</div>
+
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/venkatesh_kannan.png" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Venkatesh Kannan</h3>
+							<h3>ICHEC</h3>
+							<P>
+							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/carribault.jpg" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Patrick Carribault</h3>
+							<h3>CEA/DAM</h3>
+							<P>
+							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers</p>.
+						</div>
+
+
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="steering">
+						<h3>Steering Committee </h3>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/SuzanneTalon.jpg" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Suzanne Talon</h3>
+							<h3>Calcul Québec</h3>
+							<P>
+							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers</p>.
+						</div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/ATorresKnoop.png" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Ariana Torres</h3>
+							<h3>SURF</h3>
+							<P>
+							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.</p>
+							
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/venkatesh_kannan.png" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Venkatesh Kannan</h3>
+							<h3>ICHEC</h3>
+							<P>
+							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/philippe_deniel.jpeg" class="img-responsive" alt="Expert">
+						</div>
+
+						<div class="col-md-10 col-sm-10">
+							<h3>Philippe Deniel</h3>
+							<h3>CEA/DAM</h3>
+							<P>
+							Philippe Deniel, is a Research Engineer since 1998, and Fellow Expert since 2021 at CEA/DIF, with a focus on mass storage technologies and Quantum Computing. Philippe is the scientific coordinator of the IO-SEA project funded by EuroHPC, and the original developer of NFS-Ganesha, an open-source NFS server in user space available under the terms of the LGPLv3.</p>
+						</div>
+
+
+
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- =========================
+    Committee SECTION   
+============================== -->
+<section id="organisateurs" class="parallax-section">
+	<div class="container">
+		<div class="row">
+				<div class="section-title">
+					<h2>People involved in this workshop</h2>
+				</div>
+			</div>
+
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-speakers" class="owl-carousel">
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/ATorresKnoop.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Ariana Torres-Knoop</h3>
+								<h6>SURF</h6>
+							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.	
+							</div>
+					</div>
+				</div>
+				
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/camille_coti.jpeg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Camille Coti</h3>
+								<h6>ETSMTL Montréal</h6>
+								Camille Coti obtained a master degree in Télécom SudParis and received her PhD at University Paris-Saclay (UPSaclay France). She is now working as a professor for computer sciences at the ETSMTL (Ecole de Technologie Supérieure de Montréal) in Montreal, Canada
+							</div>
+					</div>
+				</div>
+
+		
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/Ottaviani_663c9d313528c28634829c85.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Daniele Ottaviani</h3>
+								<h6>CINECA</h6>
+								Daniele Ottaviani obtained is master’s degree cum laude in applied mathematics at University of Rome “Sapienza”. He completed his studies with a II level Master degree in "Scientific Computing", where he deepened High Performance Computing (HPC), and with a Ph.D. in "Mathematics and Models". Since 2013 he has worked as Research fellow at the Astronomical Observatory of Rome "Monte Porzio Catone". Since 2018 he has been working in CINECA as HPC Software Developer, with a special active monitoring role for the nascent quantum technologies. Since 2024 he is the Head of the CINECA Quantum Computing Lab
+							</div>
+					</div>
+				</div>
+				
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/Gabriella_Bettonte_RGB_1200.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Gabriella Bettonte</h3>
+								<h6>E4</h6>
+								Gabriella Bettonte currently works as Quantum Developer at E4 Computer Engineering. She previously worked as HPC-QC Engineer at the supercomputing center CINECA. She holds a PhD in Mathematical Computer Science from University of Paris-Saclay (2023), specializing in Quantum Computing, Real-Time applications and Operational Research. During her PhD, she conducted her research at CEA (Commissariat à l’énergie atomique) in the Technology Research department
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/Michielsen_Kristel.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Kristel Michielsen</h3>
+								<h6>JSC</h6>
+								Pr. Dr. Kristel Michielsen received her PhD from the University of Groningen,the Netherlands,  for work on the simulation of strongly correlated electfron systems in 1993. Since 2009, she is group leader of the Quantum Information Processing group at the Jülich Supercomputing Centre (JSC), Forschungszentrum Jülich and Professor of Quantum Information Processing at RWTH Aachen University. Kristel Michielsen and her group have ample experience in performing large-scale simulations of quantum systems. With her group and a team of international collaborators, she set the world record in simulating a quantum computer (QC) with 48 qubits. In 2019, she participated in a research collaboration that proved Google’s quantum supremacy. She is building up the Jülich UNified Infrastructure for Quantum computing (JUNIQ) at the JSC. Her research interests range from classical simulations of electrodynamics and quantum mechanics to quantum computing and quantum computing architectures.
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/LaviniaStiliadou.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Lavinia Stiliadou</h3>
+								<h6>University of Stuttgart</h6>
+								Lavinia Stiliadou is a research associate at the Institute of Architecture of Application Systems (IAAS) at the University of Stuttgart, Germany.  She received his master’s degree in computer science at the University of Stuttgart in 2023. 
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/burgholzer.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Lukas Burgholzer</h3>
+								<h6>TUM</h6>
+								Lukas Burgholzer is a postdoc at the Technical University of Munich's Chair for Design Automation. He obtained his PhD in computer science at JKU Linz in Austria under the supervision of Robert Wille. His research focuses on design automation and software for quantum computing. He is the chief developer and maintainer of the Munich Quantum Toolkit (MQT) and leads the technical development of the Munich Quantum Software Stack (MQSS), an endeavor of the Munich Quantum Valley to build a full-stack quantum computing ecosystem.	
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/OceaneKoska.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Océane Koska</h3>
+								<h6>EVIDEN</h6>
+								Océane Koska is a PhD student in quantum computing at Université Paris-Saclay, in collaboration with Eviden. After graduating a MSc in computer Science at ENSIMAG, she studied hybrid quantum classical algorithms for HPC, and  have worked on the quantum programming framework Q-Pragma, developed by Eviden.
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/carribault.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Patrick Carribault</h3>
+								<h6>CEA/DAM</h6>
+								Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers.
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/philippe_deniel.jpeg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Philippe Deniel</h3>
+								<h6>CEA-DAM</h6>
+								Philippe Deniel, is a Research Engineer since 1998, and Fellow Expert since 2021 at CEA/DIF, with a focus on mass storage technologies and Quantum Computing. Philippe is the scientific coordinator of the IO-SEA project funded by EuroHPC, and the original developer of NFS-Ganesha, an open-source NFS server in user space available under the terms of the LGPLv3.		
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/Santiago-Nunez.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Santiago Núñez-Corrales</h3>
+								<h6>NCSA</h6>
+								Santiago Núñez-Corrales, Ph.D. serves as Quantum Lead Research Scientist at the National Center for Supercomputing Applications (NCSA), University of Illinois Urbana-Champaign (UIUC). He also serves as faculty affiliate at the Illinois Quantum Information Science and Technology Center (IQUIST), the Center for Global Studies (CGS), the Arms Control & Domestic and International Security (ACDIS), and Illinois Informatics at the same institution. 
+								
+							</div>
+					</div>
+				</div>
+
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/SuzanneTalon.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Suzanne Talon</h3>
+								<h6>Calcul Québec</h6>
+								Suzanne Talon, CEO of Calcul Québec, holds a PhD in astrophysics from Université Paris VII, specializing in solar and stellar physics. As a researcher and educator, she advanced numerical models and taught at Université de Montréal and Sherbrooke. Since 2007, she has spearheaded HPC initiatives; she helped unify Quebec universities to establish Calcul Québec, which provides cutting-edge research computing infrastructure, including HPC and quantum resources, bolstering innovation and discovery.	
+							</div>
+					</div>
+				</div>
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/venkatesh_kannan.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Venkatesh Kannan</h3>
+								<h6>ICHEC</h6>
+								Venkatesh Kannan works as Technical Manager at the Irish Centre of High-End Computing (ICHEC), the national centre for high-performance computing (HPC) in Ireland, whose core mission is to deliver HPC-related capabilities and expertise to higher education institutions, enterprises and public sector organisations on behalf of the Irish State. At ICHEC, Venkatesh is responsible for defining and implementing the vision, strategy and roadmap of the Centre’s technological solutions.
+							</div>
+					</div>
+				</div>
+
+
+				<!-- Speaker --> 
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/vlad-stirbu-profile-foto.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Vlad Stirbu</h3>
+								<h6>University of Jyväskylä</h6>
+								Vlad Stirbu: Over 25 years of experience in IT industry, having worked as researcher in teams that developed web-based solutions for smart spaces and augmented reality, and software engineer and architect in teams that develop medical grade software systems. His focus is on APIs, distributed systems, and bridging compliance and software development practices
+							</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+    VENUE SECTION   
+============================== -->
+<section id="venir" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
+				<h2>Venue</h2>
+				<P>the Workshop will take place at <a href ="https://www.cch.de/en/">CCH Hamburg</a> during the <a href="https://isc-hpc.com/">ISC High Performance 2025 Conference</a> near the Dammtor train station in Hamburg, Germany</P>
+				<h4> <a href ="https://www.cch.de/en/">CCH Hamburg</a> </h4>
+				<h4>Messeplatz 1, Hamburg, Germany 20355</h4>
+				<h4><a href="https://www.cch.de/en/visit/arrival">Travel information to CCH</a></h4>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    CONTACT SECTION   
+============================== -->
+<section id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+				<div class="contact_des">
+					<h3>Past Editions </h3>
+					<p>This is the first edition of the QRUCH workshop,</p>
+					<P>This workshop is a follow-up to the BoF “Towards Hardware Agnostic Standards in Hybrid HPC/Quantum Computing” at ISC’24</p>.
+					<!---
+					<a href="https://per3s.github.io/per3s.2023/" class="btn btn-danger">7th edition: 2023</a>
+					<a href="https://per3s.github.io/per3s.2022/" class="btn btn-danger">6th edition: 2022</a>
+					<a href="https://per3s.sciencesconf.org" class="btn btn-danger">5th edition: 2019</a>
+					<a href="https://sites.google.com/view/per3s18/home" class="btn btn-danger">4th edition: 2018</a>
+					--->
+				</div>
+			</div>
+			<div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
+				<div class="contact_detail">
+					<div class="section-title">
+						<h2>Register to QRUCH mailing list</h2>
+						<div class="container" id="ff-compose"></div>
+					<form action="#" method="post" id="contact-form">
+						<input name="name" type="text" class="form-control" id="name" placeholder="Nom">
+					  	<input name="message" rows="5" class="form-control" id="message" placeholder="Organisation">
+					  	<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+						<div class="col-md-6 col-sm-10">
+							<div class="form-group mb-4">
+								<div id="Result-message" class="alert alert-success d-none">Send result message will display here </div>
+							</div>
+							<input name="submit" type="submit" class="form-control" id="submit" value="Inscription">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/send-email-ajax.js"></script>
+
+</body>
+<briell/html>

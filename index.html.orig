@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Per3S - 6ème édition
+http://www.templatemo.com/tm-486-new-event
+-->
+<title>Per3S - Workshop on High Performance Storage</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
+
+
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Per3S</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#intro" class="smoothScroll">Intro</a></li>
+				<li><a href="#presentation" class="smoothScroll">Présentation</a></li>
+				<li><a href="#programme" class="smoothScroll">Programme</a></li>
+				<li><a href="#organisateurs" class="smoothScroll">Organisateurs</a></li>
+				<li><a href="#enregistrement" class="smoothScroll">Enregistrement</a></li>
+				<li><a href="#venir" class="smoothScroll">Venir</a></li>
+				<li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section id="intro" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h3 class="wow bounceIn" data-wow-delay="0.9s"><mark>13 Juin à l'IMT Saclay</mark></h3>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s"><mark>Performance of Storage Systems at Scale</mark></h1>
+				<a href="#presentation" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">Présentation</a>
+				<a href="#enregistrement" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">Enregistrement</a>
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="presentation" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+				<h3>Per3S est un workshop francophone autour des thématiques de la performance des systèmes de stockage et de leur passage à l’échelle</h3>
+				<p>Le stockage de données tel qu'abordé dans Per3S inclut donc le monde du HPC mais aussi les architectures Cloud orientées «scalabilité» extrême. Les présentations abordent les thématiques applicatives, systèmes, ou architecturales. Cette 6ième édition de Per3S vise à réunir, durant une journée, des chercheurs issus des milieux académique et industriel, junior et senior afin d'échanger sur ces problématiques.</p>
+			</div>
+					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/fugaku.png" class="img-responsive" alt="Overview" title="Meet the storage system of the Fastest Supercomputer in the world: Fugaku">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    DETAIL SECTION   
+============================== -->
+<section id="detail" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.3s">
+				<i class="fa fa-group"></i>
+				<h3>50 Participants</h3>
+				<p>Les éditions précédentes de Per3S ont réussi à aggreger une petite communauté de chercheurs et industriels actifs sur les thématiques du stockage avec une jauge de 60 participants.</p>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+				<i class="fa fa-clock-o"></i>
+				<h3>3 sessions</h3>
+				<p>Le programme de la journée inclut 3 sessions, une sur les thématiques portées par les partenaires industriels, une du monde de la recherche et une sessions dédiées aux travaux des doctorants et jeunes chercheurs.</p>
+			</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<i class="fa fa-microphone"></i>
+				<h3>15 Présentations</h3>
+				<p>Dont 5 présentations Flash de doctorants pour avoir un bon panorama des activités de recherche en stockage en France en une seule journée.</p>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    VIDEO SECTION   
+<section id="video" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.3s">
+				<h2>Watch Video</h2>
+				<h3>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+			</div>
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+============================== -->
+
+
+
+
+
+
+
+<!-- =========================
+    PROGRAM SECTION   
+============================== -->
+<section id="programme" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2>Programme</h2>
+					<p>Le workshop s'étend sur une journée complète de 9h à 17h avec 3 sessions : présentations des intervenants industriels de 9h30 a 12h, la seconde session pour les travaux des academiques (Universités et Centre de Recherche) de 14h à 16h puis une session dédiée aux doctorants et jeunes chercheurs de 16h30 à 18h. </p>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#fday" aria-controls="fday" role="tab" data-toggle="tab">Industrie</a></li>
+					<li><a href="#sday" aria-controls="sday" role="tab" data-toggle="tab">Académique</a></li>
+					<li><a href="#tday" aria-controls="tday" role="tab" data-toggle="tab">Doctorants</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+
+					<div role="tabpanel" class="tab-pane active" id="fday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/ibm.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 09.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Towards a Better Understanding and Evaluation of Tree Structures on SSDs</h3>
+							<h4>Radu Stoica, IBM Zurich</h4>
+							<p>
+                                                         <p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/ovh-cloud.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 360</span>
+							</h6>
+							<h3>Le stockage à OVHcloud, retours d'expérience</h3>
+							<h4>Etienne Menguy –  Jean Despland, OVH Cloud</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/orange-lab.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 450</span>
+							</h6>
+							<h3>Partitionnement géographique de graphes massifs via l'utilisation d'une Space Filling Curve</h3>
+							<h4>Cyprien Gottstein, Orange Labs </h4>
+							<p>Bref abstract.</p>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="sday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/cea.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Phobos: a scale-out object store implementing tape library support</h3> 
+							<h4>Patrice Lucas, CEA - Philippe Deniel, CEA - Thomas Leibovici, CEA </h4>
+							<p> Bref Abstract </p>
+						</div>
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/cea-dam.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 01.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 450</span>
+							</h6>
+							<h3>RobinHood: a scalable metadata cache for storage system administrators</h3>
+							<h4>Quentin Bouget, DAM Île-de-France</h4>
+							<p>Bref abstract</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/mdls.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 650</span>
+							</h6>
+							<h3>IO optimization: the most efficient IO is the one you don't do</h3>
+							<h4>Julien Bigot, Maison de la Simulation</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/tsp.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 650</span>
+							</h6>
+							<h3>Toward Stateful Serverless Computing </h3>
+							<h4>Pierre SUTRA, Télécom SudParis</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/cea.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 650</span>
+							</h6>
+							<h3>MRAM: from device to system for low-power and reliable applications</h3>
+							<h4>Guillaume PRENAT, Université Grenoble Alpes, CEA-Grenoble</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/inria.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 650</span>
+							</h6>
+							<h3> Scalable and Efficient Data Management in Clouds: from Batch to Real-time Processing </h3>
+							<h4>Shadi Ibrahim, Inria</h4>
+							<p>Bref abstract.</p>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="tday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/inria.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Mapping and Scheduling HPC Applications for optimizing I/O</h3>
+							<h4>Nicolas Vidal, INRIA Bordeaux Sud-Ouest</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/tsp.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 05.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 850</span>
+							</h6>
+							<h3>Pythia : Runtime decisions based on prediction</h3>
+							<h4>Alexis Colin, Télécom SudParis</h4>
+							<p>Bref abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/cloud-storage.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Placement de données dans un cloud fédéré à base de système de stockage hybride</h3>
+							<h4> ??? </h4>
+							<p>Bref Abstract.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/tsp.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Revisiting storage virtualization for modern devices</h3>
+							<h4> Damien Thenot, VATES, Télécom SudParis</h4>
+							<p>Bref Abstract.</p>
+						</div>
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/lab-sticc.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3> Conception d'un algorithme d'entrainement de forêt aléatoire économe en E/S </h3>
+							<h4>Camélia Slimani, Laboratoire des sciences et techniques de línformation, de la communication et de la connaissance</h4>
+							<p>Bref Abstract.</p>
+						</div>
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/ubo.png" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Placement de données dans un cloud fédéré à base de système de stockage hybride </h3>
+							<h4> Amina Chikhaoui, université des sciences et de la technologie Houari Boumediene, UBO</h4>
+							<p>Bref Abstract.</p>
+						</div>
+					</div>
+
+				</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+<!-- =========================
+    Committee SECTION   
+============================== -->
+<section id="organisateurs" class="parallax-section">
+	<div class="container">
+		<div class="row">
+				<div class="section-title">
+					<h2>Organisateurs</h2>
+					<p>Per3S est organisée depuis 6 ans par le comité suivant.</p>
+				</div>
+			</div>
+
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-speakers" class="owl-carousel">
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="speakers-wrapper">
+						<img src="images/cloud-storage.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Jalil Boukhobza </h3>
+								<h6>ENSTA - Bretagne</h6>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/cloud-storage.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Philippe Deniel</h3>
+								<h6>CEA-DAM</h6>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="speakers-wrapper">
+						<img src="images/cloud-storage.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>François Trahay</h3>
+								<h6>IMT- Telecom Sud Paris</h6>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/cloud-storage.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Jean-Thomas Acquaviva</h3>
+								<h6>DDN Storage</h6>
+							</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+   REGISTER SECTION   
+============================== -->
+<section id="enregistrement" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
+				<h2>Enregistrement (facultatif)</h2>
+				<h3>Vous enregistrer facilite grandement la logistique et l'organisation</h3>
+				<p>Nous laisser votre adresse email permettra de vous contacter en cas de changement de salle ou autre information relatives à cette édition. Les emails ne seront pas conservés après la conférence (GDPR).</p>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
+				<form action="#" method="post">
+					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="Prénom">
+					<input name="lastname" type="text" class="form-control" id="lastname" placeholder="Nom">
+					<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
+						<input name="submit" type="submit" class="form-control" id="submit" value="Enregistrement">
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-1"></div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    FAQ SECTION   
+<section id="faq" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
+				<div class="section-title">
+					<h2>Do you have Questions?</h2>
+					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingOne">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          							 What is Responsive Design?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      						<div class="panel-body">
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+								<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+      						</div>
+   						 </div>
+ 					</div>
+
+    				<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingTwo">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          							What are latest UX Developments?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      						<div class="panel-body">
+                            	<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+      						</div>
+   						 </div>
+ 					</div>
+
+ 					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingThree">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          							What things about Social Media will be discussed?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      						<div class="panel-body">
+                            	<p>Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.</p>
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+      						</div>
+   						 </div>
+ 					 </div>
+
+ 				 </div>
+			</div>
+
+		</div>
+	</div>
+</section>
+============================== -->
+
+
+<!-- =========================
+    VENUE SECTION   
+============================== -->
+<section id="venir" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
+				<h2>Venir</h2>
+			<p>Le workshop se tiendra dans le nouveau bâtiment de l'institut Mines Telecom à Saclay. Pour les amateurs d'architecture, ce batiment a valu le <a href="https://www.telecom-paris.fr/institut-mines-telecom-joyau-brut-saclay">prix Pritzker 2020</a> à ces concepteurs.</p>
+				<h4>Institut Mines Telecom Saclay</h4
+  				<h4>19 place Marguerite Perey 91120 Palaiseau</h4>
+  				<h4>91120 Palaiseau</h4>
+				<h4>Tel: Portable de François ? (en cas d'urgence)</h4>		
+				<h4> <a href="https://www.telecom-sudparis.eu/wp-content/uploads/2021/05/Comment-venir-a-Telecom-sudparis-campus-palaiseau.pdf">Plan d'accès</a> </h4>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    SPONSORS SECTION   
+============================== -->
+<section id="sponsors" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow bounceIn col-md-12 col-sm-12">
+				<div class="section-title">
+					<h2>Nos Sponsors</h2>
+					<p>Per3S remercie chaleureusement ses sponsors.</p>
+				</div>
+			</div>
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.3s">
+				<img src="images/DDN-Logo-Landscape-web.svg" class="img-responsive" title="DataDirect Networks (DDN) is the world’s leading big data storage supplier to data-intensive, global organizations" alt="http://ddn.com">	
+			</div>
+
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.6s">
+				<img src="images/tsp.png" class="img-responsive" alt="sponsors">	
+			</div>
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.9s">
+				<img src="images/cea.png" class="img-responsive" alt="sponsors">	
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    CONTACT SECTION   
+============================== -->
+<section id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+				<div class="contact_des">
+					<h3>Editions précédentes</h3>
+					<p>Les trois éditions précédentes de PER3S sont disponibles aux adresses suivantes (l'édition 2020 ayant été annulée pour raisons sanitaires).</p>
+					<a href="https://https://per3s.sciencesconf.org" class="btn btn-danger">5ème édition: 2019</a>
+					<a href="https://sites.google.com/view/per3s18/home" class="btn btn-danger">4ème édition: 2018</a>
+					<a href="http://syst.univ-brest.fr/per3s/index.php/fr/" class="btn btn-danger">3ème édition: 2017</a>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
+				<div class="contact_detail">
+					<div class="section-title">
+						<h2>S'inscrire à la mailing list Per3S</h2>
+					</div>
+					<form action="#" method="post">
+						<input name="name" type="text" class="form-control" id="name" placeholder="Nom">
+					  	<input name="message" rows="5" class="form-control" id="message" placeholder="Organisation">
+					  	<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+						<div class="col-md-6 col-sm-10">
+							<input name="submit" type="submit" class="form-control" id="submit" value="Inscription">
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    FOOTER SECTION   
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp" data-wow-delay="0.6s">Copyright &copy; 2016 Your Company 
+                    
+                    | Design: TemplateMo</p>
+
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1.6s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+					<li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+				</ul>
+
+			</div>
+			
+		</div>
+	</div>
+</footer>
+============================== -->
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
