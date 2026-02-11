@@ -85,6 +85,7 @@ mark {
 				<h3 class="wow bounceIn" data-wow-delay="0.9s"><mark>Join us June 26 at Congress Center Hamburg (CCH), during ISC'26 </mark></h3>
 				<h3 class="wow bounceIn" data-wow-delay="1.3s"><mark>2nd edition of the Workshop</mark></h3>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s" style="background-color:rgba(242,84,95,0.5);">Quantum Resources for Unified Computing Hub</h1>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s" style="background-color:rgba(242,84,95,0.5);">THIS WEBSITE IS CURRENTLY BEEN REFURBISHED</h1>
 				<a href="#presentation" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">Overview</a>
 			</div>
 
@@ -282,18 +283,21 @@ mark {
 						<div class="program-divider col-md-12 col-sm-12"></div>
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/burgholzer.jpg" class="img-responsive" alt="program">
+							<img src="images/Mar-Tejedor.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 15h00 </span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
-							<h2>Connecting Hardware and Software in Quantum Computing: The Quantum Device Management Interface (QDMI)</h2>
-							<h3>Lukas Burgholzer (TUM))</h3>
-							<p> This lightning talk will showcase an interface, called the Quantum Device Management Interface (QDMI), that addresses this problem by explicitly connecting the software and hardware developers, mediating between their competing interests. QDMI allows hardware platforms to provide their physical characteristics in a standardized way, and software tools to query that data to guide the compilation process accordingly. QDMI is publicly available as open source at 
-https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
-							<h4> <a href="slides/2025-06_isc_qdmi_print.pdf">Slides of the presentation</a>. </h4>
+							<h2>Hybrid Quantum–HPC Integration at BSC: Architectures, Workflows, and Emerging Capabilities</h2>
+							<h3>Mar Tejedor (BSC)</h3>
+							<p>The Barcelona Supercomputing Center is actively developing the infrastructure and tooling required to integrate
+							quantum computing into large-scale HPC environments. This lightning talk will present an overview of our ongoing 
+							efforts within Qdislib, including distributed quantum circuit cutting, advances in quantum circuit caching strategies,
+							experiments connecting HPC systems with on-site and cloud-based QPUs, and the design of dedicated 
+							hybrid schedulers..</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
 
 						<!-- program divider -->
@@ -301,17 +305,23 @@ https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/Gabriella_Bettonte_RGB_1200.jpg" class="img-responsive" alt="program">
+							<img src="images/Krzysztof-Kurowski.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 15h15 </span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
-							<h2> SmartHPC.QC: evaluating the impact of malleability for HPC-QC integration<>h2>
-							<h3>Gabriella Bettonte (gabriella.bettonte@e4company.com)</h3>
-							<p>Today, HPC centers and quantum computers, as the number of quantum machines is dramatically lower than that of classical nodes. As jobs execute quantum kernels (or wait for their turn in a time-partitioned quantum resource), HPC nodes may be idle, thus occupying resources without performing anything. This phenomenon introduces inefficiencies in the overall HPC center performance. We suggest tackling the issue by adopting a more dynamic method to handle resource assignments, i.e., through malleability properties. With the SmartHPC.QC project (a collaboration between E4 Computer Engineering, Links Foundation, Università di Torino and CINECA), we aim to develop a malleable solution for allocating quantum resources in an HPC-QC pipeline.</p>
-							<h4> <a href="slides/qruch_ISC_bettonte.pdf">Slides of the presentation</a>. </h4>
+							<h2>Multi-Modality Access in a Hybrid Quantum - Classical Computing Environment<>h2>
+							 <h3>Krzysztof Kurowski (PSNC)</h3>
+							<p>The deployment of EuroHPC PIAST-Q, a trapped-ion quantum computer integrated with classical high-performance
+							computing resources at Poznan Supercomputing and Networking Center was an important shift toward hybrid 
+							quantum-classical infrastructure capable of serving multiple users and diverse computational modalities. With this
+							architecture, users access a unified environment enabling classical CPUs, GPUs and quantum processing units 
+							(QPUs) concurrently. By enabling broad access across academia, industry and the public sector, this infrastructure
+							fosters a new class of workflows that exploit multi-modality computing in a shared environment, and accelerating
+							hybrid-quantum application development </p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
 
 						<!-- program divider -->
@@ -319,17 +329,24 @@ https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/LaviniaStiliadou.png" class="img-responsive" alt="program">
+							<img src="images/Sara-Marzella.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 15h30</span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
-							<h2> Qunicorn: A Middleware for Unified Execution Across Heterogeneous Quantum Cloud Offerings.</h2>
-							<h3>Lavinia Stiliadou (lavinia.stiliadou@iaas.uni-stuttgart.de)</h3>
-							<p>Quantum computers are available via a variety of different quantum cloud offerings and quantum circuits can be implemented using different quantum programming languages. As a consequence, using a specific quantum programming language for implementing the application at hand can limit the set of compatible quantum cloud offerings and cause a vendor lock-in.  Therefore, we introduce the architecture for a unification middleware that facilitates accessing quantum computers available via different quantum cloud offerings by automatically translating between various quantum circuits and result formats</p>
-							<h4> <a href="slides/Lavinia-Qunicorn-Presentation.pdf">Slides of the presentation</a>. </h4>
+							<h2>Evaluating the impact of Malleabilty for HPC-QC jobs scheduling on Leonardo</h2>
+							<h3>Sara Marzella (CINECA)</h3>
+							<p>The integration of quantum computers within classical High-Performance Computing (HPC) infrastructures is 
+							receiving increasing attention, with the former expected to serve as accelerators for specific computational tasks. 
+							Differences in hardware architectures, communication models, and programming workflows introduce nontrivial 
+							integration issues.
+							Even more critically, the scarcity of quantum devices, especially compared to the large number of classical nodes 
+							in modern HPC systems, creates an inherent scheduling bottlenek. We propose a novel malleability-based approach to 
+							optimize resource utilization in hybrid HPC–quantum workloads. This dynamic strategy enables workloads to adjust their
+							resource footprint at runtime depending on the availability of quantum resources.</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 
 						</div>
 
@@ -338,17 +355,21 @@ https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/Santiago-Nunez.png" class="img-responsive" alt="program">
+							<img src="images/takano.sc25.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 15h45</span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session </span>
 							</h6>
-							<h2>Programming models for hybrid HPC-QPU applications</h2>
-							<h3> Santiago Nunez-Corrales (nunezco2@illinois.edu)</h3>
-							<p> Programming quantum computers today still requires substantial knowledge of the physical basis of these devices. This creates a tall barrier for non-physicists to benefit from the additional computational resources QPUs provide and constrains the growth in number of successful final applications. When put in the perspective of integrating HPC and QPU resources, hybrid classical-quantum programming today seems not be poised to scale up alongside qubit counts, fault tolerance and utility-scale devices within the following decade. We will discuss new directions for quantum-only programming models inspired by four decades of parallel computing (including MPI, OpenMP and CUDA) where the main objective is to provide a uniform programming surface with much lower difficulty for newcomers</p>
-							<h4> <a href="slides/ISC25_QRUCH_LightningTalk_NunezCorrales.pdf">Slides of the presentation</a>. </h4>
+							<h2>ABCI-Q: A Next-Generation Hybrid Computing Infrastructure Integrating AI, HPC, and Quantum Computing</h2>
+							<h3>Ryousei Takano (AIST)</h3>
+							<p>While the convergence of AI and HPC continues to accelerate, quantum computing is emerging as a new computational
+							resource. ABCI-Q is a unique hybrid platform that integrates a GPU-based AI supercomputer with three types of quantum
+							computers — superconducting, neutral atom, and photonic. This talk introduces the concept, implementation, and current
+							status of ABCI-Q, highlighting its role as a prototype for future AI–quantum–HPC integration and discussing the 
+							emerging challenges and opportunities in hybrid computing.</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
 					<!-- program divider -->
 
@@ -381,17 +402,21 @@ https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/vlad-stirbu-profile-foto.jpg" class="img-responsive" alt="program">
+							<img src="images/Valeria-Bartsch.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 16h30</span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
-							<h2>A critical look at the state of quantum software stack </h2>
-							<h3> Vlad Stirbu (vlad.a.stirbu@jyu.fi) </h3>
-							<p>The talk will take a critical look at the current state of quantum software stack and what we can learn from 70 years of classical computing when designing the integration of quantum computing into classical infrastructures</p>
-							<h4> <a href="slides/20250613-qruch-Stirbu.pdf">Slides of the presentation</a>. </h4>
+							<h2>Decomposition of hybrid optimization problems in maritime logistics</h2>
+							<h3>Valeria Bartsch (Fraunhofer CML)</h3>
+							<p>Optimization problems are ample in maritime logistics and especially for mixed integer linear problem 
+							formulations depend a lot on the modelling. Thus, domain expertise is needed in order to find a realistic 
+							problem definition while keeping the current limitations of the QC hardware in mind. I will present for 
+							several important optimization problems in maritime logistics decomposition methods as the Benders decomposition, 
+							its advantages and the requirements these hybrid workflows pose on the QC/HPC hardware.</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
 
 						<!-- program divider -->
@@ -399,19 +424,23 @@ https://github.com/Munich-Quantum-Software-Stack/QDMI.</p>
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/OceaneKoska.jpg" class="img-responsive" alt="program">
+							<img src="images/Carlos-Gonzalez.jpg" class="img-responsive" alt="program">
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
 								<span><i class="fa fa-clock-o"></i> 16h45</span> 
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
-							<h2>Heterogeneous quantum computing in C++ with Q-Pragma</h2>
-							<h3> Océane Koska (oceane.koska@eviden.net) </h3>
-							<p>Quantum computing offers a promising approach to solving complex computational problems. However, integrating quantum computing into existing high-performance computing (HPC) environments remains a significant challenge. The Q-Pragma programming framework aims to facilitate this integration by embedding quantum directives within C++ code, enabling the development of hybrid quantum-classical applications. This presentation will explore the architecture of Q-Pragma, its role in optimizing quantum-classical interactions, and its potential for enhancing computational performance.</p>
+							<h2>JUNIQ HPC-QC integration: Current implementation and some thoughts on future implementations.</h2>
+							<h3>) Carlos Gonzalez (FZJ)</h3>
+							<p>This talk introduces the Juelich UNified Infrastructure for Quantum computing (JUNIQ), gives an overview 
+							of the currently available QC hardware and the ongoing HPC-QC integration efforts at JSC and closes with some 
+							thoughts on how future implementations of HPC-QC integration could look like.</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
 
 					</div>
+
 
 					<div role="tabpanel" class="tab-pane" id="cloud">
 						<h3>Expert Panel </h3>
