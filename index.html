@@ -128,13 +128,24 @@ mark {
 				<P>This workshop is a follow-up of the first edition of the QRUCH workshop which took place during ISC'25.
 				This workshop was itself a follow-up to the BoF “Towards Hardware Agnostic Standards in Hybrid HPC/Quantum Computing” at ISC’24.</P>
 
-				<P>Quantum Computing is not a completely  new topic: it was introduced in 1981 during a conference at MIT, but it really came under the spotlight as Peter Shor released his famous algorithm capable of breaking RSA encryption with tremendous acceleration. The domain remained a bit theoretical, studied in mathematical computer science, until a few years ago when actual Quantum Computers arrived on the market providing real (but yet limited) quantum compute resources. In the very last years, Quantum Computers gained more compute power, and they started to be deployed inside HPC centers while also becoming available on cloud based platforms. </P> 
+				<P>Quantum Computing is not a completely  new topic: it was introduced in 1981 during a conference at MIT, but it really came under the 
+				spotlight as Peter Shor released his famous algorithm capable of breaking RSA encryption with tremendous acceleration. The domain remained a
+				bit theoretical, studied in mathematical computer science, until a few years ago when actual Quantum Computers arrived on the market providing
+				real (but yet limited) quantum compute resources. In the very last years, Quantum Computers gained more compute power, and they started to be
+				deployed inside HPC centers while also becoming available on cloud based platforms. </P> 
 
-				<P>As Quantum Computers leave the laboratories where they were designed and enter the HPC machine room, it becomes necessary to consider how they can be used to perform actual computation on real life use cases. As we are still in the NISQ era, and because HPC resources may help in using Quantum Computers efficiently, the hybrid HPC/QC naturally appeared, providing acceleration similarly to GPU previously.</P> 
+				<P>As Quantum Computers leave the laboratories where they were designed and enter the HPC machine room, it becomes necessary to consider 
+				how they can be used to perform actual computation on real life use cases. As we are still in the NISQ era, and because HPC resources may
+				help in using Quantum Computers efficiently, the hybrid HPC/QC naturally appeared, providing acceleration similarly to GPU previously.</P> 
 
-				<P>This is not as easy as it seems. As the hardware becomes ready to be installed in computer rooms, the software stack has not evolved as fast. In particular, the required software stack to “glue” HPC and QC is not fully defined. Solutions exist and are provided by both research institutes and vendors, but they obey no standard. </P>
+				<P>This is not as easy as it seems. As the hardware becomes ready to be installed in computer rooms, the software stack has not evolved as
+				fast. In particular, the required software stack to “glue” HPC and QC is not fully defined. Solutions exist and are provided by both 
+				research institutes and vendors, but they obey no standard. </P>
 
-				<P>Current Quantum Computers are provided with a very simple software stack, usually a Python based framework, providing native access to the computing resources as well as a “mock device” providing emulation on standard CPU (and sometimes GPU) compute power. As we consider the integration inside the computer center, many topics, related to system integration as well as application integration are to be considered, such as:
+				<P>Current Quantum Computers are provided with a very simple software stack, usually a Python based framework, providing native access to
+				the computing resources as well as a “mock device” providing emulation on standard CPU (and sometimes GPU) compute power. As we consider
+				the integration inside the computer center, many topics, related to system integration as well as application integration are to
+				be considered, such as:
 				<ul>
 					<li>authentication and accounting;</li>
 					<li>job scheduling;</li>
@@ -142,7 +153,8 @@ mark {
 					<li>programming interfaces beyond Python</li>
 					<li>mixing HPC and QC steps to perform actual HPC/QC hybridization</li>
 				</ul></p>
-				<P>This “half a day” workshop will address some of these topics as it aims to depict the available pieces of software that will help in integrating an actual quantum computer inside a machine room, making it available to end users.</P>
+				<P>This “half a day” workshop will address some of these topics as it aims to depict the available pieces of software that will 
+				help in integrating an actual quantum computer inside a machine room, making it available to end users.</P>
 
             <h3> Important dates </h3>
             <ul>
@@ -432,15 +444,37 @@ mark {
 								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
 							</h6>
 							<h2>JUNIQ HPC-QC integration: Current implementation and some thoughts on future implementations.</h2>
-							<h3>) Carlos Gonzalez (FZJ)</h3>
+							<h3>Carlos Gonzalez (FZJ)</h3>
 							<p>This talk introduces the Juelich UNified Infrastructure for Quantum computing (JUNIQ), gives an overview 
 							of the currently available QC hardware and the ongoing HPC-QC integration efforts at JSC and closes with some 
 							thoughts on how future implementations of HPC-QC integration could look like.</p>
 							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
 						</div>
+						
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
 
-					</div>
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/Felix-Givois.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 16h45</span> 
+								<span><i class="fa fa-map-marker"></i> Plenary Session</span>
+							</h6>
+							<h2>EuroQHPC-Integration</h2>
+							<h3>Félix Givois (GENCI)</h3>
+							<p>The EuroQHPC-Integration project is funded by EuroHPC. It is coordinated by GENCI, brings together 30 partners, 
+							spread across 17 European countries, and relies on 6 quantum computers with various architectures (neutral atoms, 
+							superconducting qubits with different topologies, quantum annealing, photonics, trapped ions) that will be coupled 
+							with 6 European supercomputers forming an unprecedented hybrid HPC/QC infrastructure. This topic will highlight
+							the main topics of this project.</p>
+							<h4> <a href="slides/coming-soon.pdf">Slides of the presentation</a>. </h4>
+						</div>
 
+
+					</div>  <!-- Lightning Talk -->
 
 					<div role="tabpanel" class="tab-pane" id="cloud">
 						<h3>Expert Panel </h3>
@@ -450,14 +484,20 @@ mark {
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/camille-coti.jpg" class="img-responsive" alt="Camille Coti">
+							<img src="images/Valeria-Bartsch.jpg" class="img-responsive" alt="Valeria Bartsch">
 						</div>
 
 						<div class="col-md-10 col-sm-10">
-							<h3> Camille Coti</h3>
-							<h3>ETSMTL Montréal</h3>
-							<P>
-							Camille Coti obtained a master degree in Télécom SudParis and received her PhD at University Paris-Saclay (UPSaclay France). She is now working as a professor for computer sciences at the ETSMTL (Ecole de Technologie Supérieure de Montréal) in Montreal, Canada</p>
+							<h3>Valeria Bartsch</h3>
+							<h3>Fraunhofer CML</h3>
+							<p>
+							Valeria Bartsch is a senior scientist at the Fraunhofer Center for Maritime Logistics in Hamburg. She has
+							been with Fraunhofer since 2013 starting with High Performance Computing and Quantum Computing at Fraunhofer 
+							ITWM in Kaiserslautern before changing to Maritime Logistics in 2024. Previously, she worked has held postdoctoral
+							positions at the University of Sussex, University College London, Fermi National Accelerato Laboratory in Chicago
+							and the University of Oxford, where she contributed to various high-energy physics projects. Valeria holds a Ph.D.
+							from Universität Karlsruhe and a Physics diploma from the Universität Dortmund.
+							</p>
 						</div>
 
 
@@ -467,14 +507,25 @@ mark {
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/Santiago-Nunez.png" class="img-responsive" alt="Expert">
+							<img src="images/Krzysztof-Kurowski.jpg" class="img-responsive" alt="Expert">
 						</div>
 
 						<div class="col-md-10 col-sm-10">
-							<h3>Santiago Núñez-Corrales, Ph.D</h3>
-							<h3>NCSA</h3>
-							<P>
-							Santiago Núñez-Corrales, Ph.D. serves as Quantum Lead Research Scientist at the National Center for Supercomputing Applications (NCSA), University of Illinois Urbana-Champaign (UIUC). He also serves as faculty affiliate at the Illinois Quantum Information Science and Technology Center (IQUIST), the Center for Global Studies (CGS), the Arms Control & Domestic and International Security (ACDIS), and Illinois Informatics at the same institution. </p> 
+							<h3>Krzysztof Kurowskii</h3>
+							<h3>PSNC</h3>
+							<p>
+							Krzysztof Kurowskii holds PhD in computer science from Poznań University of Technology. He recently served as 
+							Technical Director of the Poznań Supercomputing and Networking Center (PCSS) and is currently the Head of the 
+							Quantum Technologies Department. For the past two decades, he has been involved in national and international 
+							research and development projects in the field of ICT and its application across various domains. He has 
+							gained international experience as a research visitor at several institutions, including the University of
+							Queensland and Argonne National Laboratory. His research interests focus on modelling advanced applications, 
+							serialization, and task management challenges in modern supercomputing systems, including hybrid classical 
+							supercomputers and quantum computing platforms. More recently, he has been involved in the development of the
+							national quantum computing infrastructure in Poland and is coordinating the EuroHPC EuroQCS-Poland consortium r
+							esponsible for the deployment of a trapped-ion quantum system called Piast-Q and its integration with PCSS 
+							supercomputing facilities.
+							</p> 
 						</div>
 
 						<!-- program divider -->
@@ -482,33 +533,22 @@ mark {
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/Ottaviani_663c9d313528c28634829c85.jpg" class="img-responsive" alt="Expert">
+							<img src="images/Sara-Marzella.jpg" class="img-responsive" alt="Expert">
 						</div>
 
 						<div class="col-md-10 col-sm-10">
-							<h3>Daniele Ottaviani</h3>
+							<h3>Sara Marzella</h3>
 							<h3>CINECA</h3>
-							<P>
-							Daniele Ottaviani obtained is master’s degree cum laude in applied mathematics at University of Rome “Sapienza”. He completed his studies with a II level Master degree in "Scientific Computing", where he deepened High Performance Computing (HPC), and with a Ph.D. in "Mathematics and Models". Since 2013 he has worked as Research fellow at the Astronomical Observatory of Rome "Monte Porzio Catone". Since 2018 he has been working in CINECA as HPC Software Developer, with a special active monitoring role for the nascent quantum technologies. Since 2024 he is the Head of the CINECA Quantum Computing Lab</p>>
+							<p>
+							Sara Marzella is Senior Scientific Application Engineer in HPC and Quantum Computing at the Quantum Computing 
+							LAB of CINECA. Graduated in Applied Mathematics with a thesis on mathematical methods for machine learning, she
+							specializes in the integration of Quantum Computers with Supercomputers, focusing on the development of hybrid 
+							algorithms and the optimization of both classical and quantum computational resources. A strong advocate for 
+							science outreach, she actively participates in national and international events to promote accessibility in 
+							Mathematics and Quantum Computing. She contributes to national and European projects on HPC–Quantum integration, 
+							advanced training programs, and the coordination of research and development initiatives. 
+							</p>
 						</div>
-
-
-						<!-- program divider -->
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here -->
-						<div class="col-md-2 col-sm-2">
-							<img src="images/ATorresKnoop.png" class="img-responsive" alt="Expert">
-						</div>
-
-						<div class="col-md-10 col-sm-10">
-							<h3>Ariana Torres</h3>
-							<h3>SURF</h3>
-							<P>
-							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.</p>
-							
-						</div>
-
 
 						<!-- program divider -->
 						<div class="program-divider col-md-12 col-sm-12"></div>
@@ -521,25 +561,14 @@ mark {
 						<div class="col-md-10 col-sm-10">
 							<h3>Venkatesh Kannan</h3>
 							<h3>ICHEC</h3>
-							<P>
-							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers.</p>
+							<p> 
+							Venkatesh Kannan works as Technical Manager at the Irish Centre of High-End Computing (ICHEC), the national 
+							centre for high-performance computing (HPC) in Ireland, whose core mission is to deliver HPC-related capabilities
+							and expertise to higher education institutions, enterprises and public sector organisations on behalf of the
+							Irish State. At ICHEC, Venkatesh is responsible for defining and implementing the vision, strategy and roadmap 
+							of the Centre’s technological solutions.
+							</p>
 						</div>
-
-						<!-- program divider -->
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here -->
-						<div class="col-md-2 col-sm-2">
-							<img src="images/carribault.jpg" class="img-responsive" alt="Expert">
-						</div>
-
-						<div class="col-md-10 col-sm-10">
-							<h3>Patrick Carribault</h3>
-							<h3>CEA/DAM</h3>
-							<P>
-							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers</p>.
-						</div>
-
 
 					</div>
 
@@ -557,8 +586,13 @@ mark {
 						<div class="col-md-10 col-sm-10">
 							<h3>Suzanne Talon</h3>
 							<h3>Calcul Québec</h3>
-							<P>
-							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers</p>.
+							<p>
+							Suzanne Talon, CEO of Calcul Québec, holds a PhD in astrophysics from Université Paris VII, specializing in solar
+							and stellar physics. As a researcher and educator, she advanced numerical models and taught at Université de 
+							Montréal and Sherbrooke. Since 2007, she has spearheaded HPC initiatives; she helped unify Quebec universities 
+							to establish Calcul Québec, which provides cutting-edge research computing infrastructure, including HPC and 
+							quantum resources, bolstering innovation and discovery.
+						        </p>.
 						</div>
 
 						<!-- program speaker here -->
@@ -569,9 +603,12 @@ mark {
 						<div class="col-md-10 col-sm-10">
 							<h3>Ariana Torres</h3>
 							<h3>SURF</h3>
-							<P>
-							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.</p>
-							
+							<p>
+							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics.
+							She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF,
+							the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor.
+							She currently is leading the Quantum Computing efforts at SURF.
+							</p>
 						</div>
 
 						<!-- program divider -->
@@ -585,8 +622,13 @@ mark {
 						<div class="col-md-10 col-sm-10">
 							<h3>Venkatesh Kannan</h3>
 							<h3>ICHEC</h3>
-							<P>
-							Patrick Carribault is a Project Manager in HPC and Quantum Computing. Furthermore, he is a CEA Fellow and holds an HDR in Computer Science. His research focuses on software stack and co-design between parallel applications and high-performance compute architectures. Participating to various academia and industry collaborations, he studies parallel programming models, compilation and optimization of parallel performance targeting current and next-generation of supercomputers.</p>
+							<p>
+							Venkatesh Kannan works as Technical Manager at the Irish Centre of High-End Computing (ICHEC), the national centre 
+							for high-performance computing (HPC) in Ireland, whose core mission is to deliver HPC-related capabilities and 
+							expertise to higher education institutions, enterprises and public sector organisations on behalf of the Irish State.
+							At ICHEC, Venkatesh is responsible for defining and implementing the vision, strategy and roadmap of the
+							Centre’s technological solutions.
+							</p>
 						</div>
 
 						<!-- program divider -->
@@ -600,8 +642,12 @@ mark {
 						<div class="col-md-10 col-sm-10">
 							<h3>Philippe Deniel</h3>
 							<h3>CEA/DAM</h3>
-							<P>
-							Philippe Deniel, is a Research Engineer since 1998, and Fellow Expert since 2021 at CEA/DIF, with a focus on mass storage technologies and Quantum Computing. Philippe is the scientific coordinator of the IO-SEA project funded by EuroHPC, and the original developer of NFS-Ganesha, an open-source NFS server in user space available under the terms of the LGPLv3.</p>
+							<p>
+							Philippe Deniel is a CEA research engineer and Fellow expert specializing in high-performance computing (HPC). A 1996
+							École Centrale Paris graduate with a 2023 PhD from Université Paris-Saclay, he has worked at CEA since 1998 and led 
+							massive HPC storage teams from 2015 to 2023 at CEA/DIF and TGCC. His expertise covers hierarchical storage, parallel
+							file systems, and HPC/quantum hybridization.
+							</p>
 						</div>
 
 
@@ -636,7 +682,10 @@ mark {
 							<div class="speakers-thumb">
 								<h3>Ariana Torres-Knoop</h3>
 								<h6>SURF</h6>
-							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics. She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. She currently is leading the Quantum Computing efforts at SURF.	
+							Ariana Torres-Knoop has a background in Physics, with a focus on computational, atomic scale and statistical physics.
+							She did her PhD (cum-laude) in computational chemistry group at the University of Amsterdam. In 2019 she joined SURF, 
+							the IT collaboration for research and education in the Netherlands, as an HPC and Quantum Computing advisor. 
+							She currently is leading the Quantum Computing efforts at SURF.	
 							</div>
 					</div>
 				</div>
@@ -645,27 +694,19 @@ mark {
 				<!-- Speaker --> 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="speakers-wrapper">
-						<img src="images/camille-coti.jpg" class="img-responsive" alt="speakers">
+						<img src="images/Carlos-Gonzalez.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>Camille Coti</h3>
-								<h6>ETSMTL Montréal</h6>
-								Camille Coti obtained a master degree in Télécom SudParis and received her PhD at University Paris-Saclay (UPSaclay France). She is now working as a professor for computer sciences at the ETSMTL (Ecole de Technologie Supérieure de Montréal) in Montreal, Canada.
+								<h3>Carlos Gonzalez Calaza</h3>
+								<h6>FZJ</h6>
+								Carlos Gonzalez Calaza leads the architecture design and implementation of the user access platform for 
+								“Jülich UNified Infrastructure for Quantum computing (JUNIQ)” since 2019. In this role, he has been involved
+								in tasks such as providing cloud access to different quantum computing (QC) devices, as well as integrating
+								such devices within the high-performance computing (HPC) systems at the Jülich Supercomputing Center. He 
+								currently contributes with his expertise to the EuroHPC JU project HPCQS and QEC4
 							</div>
 					</div>
 				</div>
 
-				<!-- Speaker --> 
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-					<div class="speakers-wrapper">
-						<img src="images/daniele_grigori.png" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Daniele Grigori</h3>
-								<h6>E4</h6>
-								Daniele Grigori is the Chief Science Officer at E4
-							</div>
-					</div>
-				</div>
-		
 				<!-- Speaker --> 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="speakers-wrapper">
@@ -673,7 +714,12 @@ mark {
 							<div class="speakers-thumb">
 								<h3>Daniele Ottaviani</h3>
 								<h6>CINECA</h6>
-								Daniele Ottaviani obtained his master’s degree cum laude in applied mathematics at University of Rome “Sapienza”. He completed his studies with a II level Master degree in "Scientific Computing", where he deepened High Performance Computing (HPC), and with a Ph.D. in "Mathematics and Models". Since 2013 he has worked as Research fellow at the Astronomical Observatory of Rome "Monte Porzio Catone". Since 2018 he has been working in CINECA as HPC Software Developer, with a special active monitoring role for the nascent quantum technologies. Since 2024 he is the Head of the CINECA Quantum Computing Lab.
+								Daniele Ottaviani obtained his master’s degree cum laude in applied mathematics at University of Rome
+								“Sapienza”. He completed his studies with a II level Master degree in "Scientific Computing", where he
+								deepened High Performance Computing (HPC), and with a Ph.D. in "Mathematics and Models". Since 2013 he has
+								worked as Research fellow at the Astronomical Observatory of Rome "Monte Porzio Catone". Since 2018 he has
+								been working in CINECA as HPC Software Developer, with a special active monitoring role for the nascent
+								quantum technologies. Since 2024 he is the Head of the CINECA Quantum Computing Lab.
 							</div>
 					</div>
 				</div>
@@ -682,11 +728,16 @@ mark {
 				<!-- Speaker --> 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="speakers-wrapper">
-						<img src="images/Gabriella_Bettonte_RGB_1200.jpg" class="img-responsive" alt="speakers">
+						<img src="images/Felix-Givois.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>Gabriella Bettonte</h3>
-								<h6>E4</h6>
-								Gabriella Bettonte currently works as Quantum Developer at E4 Computer Engineering. She previously worked as HPC-QC Engineer at the supercomputing center CINECA. She holds a PhD in Mathematical Computer Science from University of Paris-Saclay (2023), specializing in Quantum Computing, Real-Time applications and Operational Research. During her PhD, she conducted her research at CEA (Commissariat à l’énergie atomique) in the Technology Research department.
+								<h3>Félix Givois</h3>
+								<h6>GENCI</h6>
+								Félix Givois is a Quantum Computing Projects Engineer at GENCI. He works on the deployment of hybrid 
+								HPC–quantum infrastructures for French and European open research. With a background in applied mathematics
+								and experience at the Fraunhofer Institute, he worked on the application of quantum computing for mechanical
+								simulation applications. At GENCI he is involved in the procurement and deployment of quantum computers in 
+								a supercomputing center. He is also active in outreach and dissemination of quantum computing technologies
+								to HPC users
 							</div>
 					</div>
 				</div>
@@ -694,11 +745,21 @@ mark {
 				<!-- Speaker --> 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="speakers-wrapper">
-						<img src="images/Michielsen_Kristel.jpg" class="img-responsive" alt="speakers">
+						<img src="images/Krzysztof-Kurowski.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>Kristel Michielsen</h3>
-								<h6>JSC</h6>
-								Pr. Dr. Kristel Michielsen received her PhD from the University of Groningen,the Netherlands,  for work on the simulation of strongly correlated electfron systems in 1993. Since 2009, she is group leader of the Quantum Information Processing group at the Jülich Supercomputing Centre (JSC), Forschungszentrum Jülich and Professor of Quantum Information Processing at RWTH Aachen University. Kristel Michielsen and her group have ample experience in performing large-scale simulations of quantum systems. With her group and a team of international collaborators, she set the world record in simulating a quantum computer (QC) with 48 qubits. In 2019, she participated in a research collaboration that proved Google’s quantum supremacy. She is building up the Jülich UNified Infrastructure for Quantum computing (JUNIQ) at the JSC. Her research interests range from classical simulations of electrodynamics and quantum mechanics to quantum computing and quantum computing architectures.
+								<h3>Krzysztof Kurowski</h3>
+								<h6>PSNC</h6>
+								Krzysztof Kurowskii holds PhD in computer science from Poznań University of Technology. He recently served 
+								as Technical Director of the Poznań Supercomputing and Networking Center (PCSS) and is currently the Head 
+								of the Quantum Technologies Department. For the past two decades, he has been involved in national and  
+								international research and development projects in the field of ICT and its application across various 
+								domains. He has gained international experience as a research visitor at several institutions, including the
+								University of Queensland and Argonne National Laboratory. His research interests focus on modelling advanced
+								applications, serialization, and task management challenges in modern supercomputing systems, including
+								hybrid classical supercomputers and quantum computing platforms. More recently, he has been involved in the 
+								development of the national quantum computing infrastructure in Poland and is coordinating the EuroHPC 
+								EuroQCS-Poland 5consortium responsible for the deployment of a trapped-ion quantum system called Piast-Q
+								and its integration with PCSS supercomputing facilities.
 							</div>
 					</div>
 				</div>
